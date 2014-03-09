@@ -79,8 +79,35 @@
 	<?php endif;?>
 	<!-- Login Screen Manager End -->
 	
+
+	
 	<?php
 		echo ob_get_clean();
 	}
 	add_action('login_head', 'cwlsm_change');
 ?>
+
+	<?php 
+	
+	$cwlsm_name = $cwlsm_options["hover_title"];
+	 
+	function cwlsm_change_title(){
+		global $cwlsm_name;
+		return  $cwlsm_name;
+	}
+	
+	if(!empty($cwlsm_options["hover_title"])){
+		add_action('login_headertitle', 'cwlsm_change_title');
+	}
+	
+	$cwlsm_url = $cwlsm_options["url"];
+	 
+	function cwlsm_change_url(){
+		global $cwlsm_url;
+		return  $cwlsm_url;
+	}
+	
+	if(!empty($cwlsm_options["url"])){
+		add_action('login_headerurl', 'cwlsm_change_url');
+	}
+	?>

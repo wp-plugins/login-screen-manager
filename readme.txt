@@ -1,9 +1,9 @@
 === Login Screen Manager ===
 Contributors: nazmul.hossain.nihal
 Tags: login screen,login logo,wp-login.php,coding war,Nazmul Hossain Nihal,codingwar.com,logos,login screen manager
-Requires at least: 2.0.3
-Tested up to: 3.4.1
-Stable tag: 1.1
+Requires at least: 3.5
+Tested up to: 3.8.1
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,12 +11,14 @@ Using this plugin you can make changes on login screen of your WordPress site.
 
 == Description ==
 
-Using this plugin you can make change on login screen of your WordPress site.Go to Settings >> Login Screen to make changes
+Using this plugin you can make changes on login screen of your WordPress site.Go to Settings >> Login Screen to make changes
 
 What you can do with this :
 
 *   Change Login Logo
 *   Add Favicon of login page
+*	Change Logo Hover Text
+*	Change Logo Url
 *   Change Background Color
 *   Change Login Form Background Color
 *   Change Label Color
@@ -88,3 +90,7 @@ Update this plugin to get a new option - Change Input Background Color
 
 = 1.1 =
 * Color picker Added
+
+= 2.0 =
+* Logo Hover Text changing option added!
+* Logo url changing option added!

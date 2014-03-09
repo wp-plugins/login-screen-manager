@@ -11,6 +11,8 @@ function cwlsm_options_page() {
 			$input = array(
 				"logo_url" => array("text"=>"Logo Image URL","class"=>"cwlsm_file"),
 				"fav_icon_url" => array("text"=>"Favicon Url","class"=>"cwlsm_file"),
+				"hover_title" => array("text"=>"Hover Title","class"=>"cwlsm_file"),
+				"url" => array("text"=>"Url","class"=>"cwlsm_file"),
 				"body_bg_color" => array("text"=>"Body Background Color","class"=>"color {hash:true}","default"=>"#000000"),
 				"login_form_bg_color" =>  array("text"=>"Login Form Background Color","class"=>"color {hash:true}","default"=>"#FFFFFF"),
 				"text_input_color" => array("text"=>"Input Text Color","class"=>"color {hash:true}","default"=>"#000000"),
@@ -20,7 +22,7 @@ function cwlsm_options_page() {
 		?>
 		<form method="post" action="options.php">
 			<?php settings_fields('cwlsm_settings_group'); ?>
-			<table>
+			<table style="width:600px;float:left;">
 				<!-- Media Uploader -->
 				<!-- Media Uploader -->
 				<?php foreach ($input as $name => $data) : ?>
@@ -33,12 +35,28 @@ function cwlsm_options_page() {
 					<td><label class="description" for="cwlsm_settings[css]"><?php _e("Custom Css", 'cwlsm_domain'); ?></label></td>
 					<td><textarea id="cwlsm_settings[css]" style="height:250px;width:400px;"  name="cwlsm_settings[css]" type="text"><?php echo $cwlsm_options["css"]; ?></textarea></td>
 				</tr>
-				<tr><td></td><td>Hey Rate this Plugin <a href="http://wordpress.org/extend/plugins/login-screen-manager/" target="_blank">here</a> and visit my Website <a href="http://www.codingwar.com/" target="_blank">CodingWar.com</a></td></tr>
+				<tr><td></td><td><a href="http://wordpress.org/extend/plugins/login-screen-manager/" target="_blank">Hey Rate this Plugin </a></td></tr>
 				<tr>
 					<td></td>
 					<td class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Options', 'cwlsm_domain'); ?>" /></td>
 				</tr>
 			</table>
+			<div style="float:right;text-align:right;width:200px;">
+			 
+				<span style="font-size:32px;">Hello!</span><br />
+				I am Nihal <br />
+				I need your support.I have lost my domain name.
+				I registered that domain in 2012.
+				After a year in 2013 my domain expired.
+				Because of my exam I didn't renew it.
+				Now my domain became a premium domain name and it costs $700.
+				Now I am working so that I can get my domain back.
+				So I need your help.Please 
+				<span style="font-size:18px;"><b><a href="http://goo.gl/dxNcHZ" target="_blank">donate</a></b></span>
+				for this plugin. 
+							 
+
+			</div>
 		</form>
 		
 	</div>
