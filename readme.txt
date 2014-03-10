@@ -54,6 +54,7 @@ Use Custom Css Option
 1. A Login Screen
 2. Option Page
 2. Favicon
+
 == Upgrade Notice ==
 
 = 1.0.1 =
