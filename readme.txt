@@ -73,6 +73,10 @@ Update this plugin to get a new option - Change Input Background Color
 = 1.1 =
 * Color Picker Added!Get it now
 
+= 2.0 =
+* Logo Hover Text changing option added
+* Logo url changing option added
+
 == Changelog ==
 
 = 1.0 =
@@ -93,5 +97,5 @@ Update this plugin to get a new option - Change Input Background Color
 * Color picker Added
 
 = 2.0 =
-* Logo Hover Text changing option added!
-* Logo url changing option added!
+* Logo Hover Text changing option added
+* Logo url changing option added
