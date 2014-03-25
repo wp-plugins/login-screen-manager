@@ -1,13 +1,13 @@
 === Login Screen Manager ===
 Contributors: nazmul.hossain.nihal
-Tags: login screen,login logo,wp-login.php,coding war,Nazmul Hossain Nihal,codingwar.com,logos,login screen manager,admin
+Tags: login screen,login logo,wp-login.php,coding war,Nazmul Hossain Nihal,codingwar.com,logos,login screen manager
 Requires at least: 3.5
 Tested up to: 3.8.1
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Using this plugin you can make changes on login screen of your WordPress site.
+Using this plugin you can make changes on login screen of your WordPress site.It can detect your logo image size automatically.
 
 == Description ==
 
@@ -53,7 +53,6 @@ Use Custom Css Option
 
 1. A Login Screen
 2. Option Page
-2. Favicon
 
 == Upgrade Notice ==
 
@@ -73,9 +72,8 @@ Update this plugin to get a new option - Change Input Background Color
 = 1.1 =
 * Color Picker Added!Get it now
 
-= 2.0 =
-* Logo Hover Text changing option added
-* Logo url changing option added
+= 2.1 =
+* Automatic logo size detection added and Restore Defualt Option added
 
 == Changelog ==
 
@@ -97,5 +95,9 @@ Update this plugin to get a new option - Change Input Background Color
 * Color picker Added
 
 = 2.0 =
-* Logo Hover Text changing option added
-* Logo url changing option added
+* Logo Hover Text changing option added!
+* Logo url changing option added!
+
+= 2.1 =
+* Automatic logo size detection added
+* Restore Defualt Option added

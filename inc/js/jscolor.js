@@ -8,7 +8,31 @@
  * @updated 2012-07-06
  * @link    http://jscolor.com
  */
-
+ 
+ 
+function cw_df_body_bg_color(){
+	document.getElementById("cwlsm_settings[body_bg_color]").value = "#F1F1F1";
+}
+ 
+function cw_df_login_form_bg_color(){
+	document.getElementById("cwlsm_settings[login_form_bg_color]").value = "#FFFFFF";
+}
+ 
+function cw_df_text_input_color(){
+	document.getElementById("cwlsm_settings[text_input_color]").value = "#000000";
+}
+ 
+function cw_df_input_bg_color(){
+	document.getElementById("cwlsm_settings[input_bg_color]").value = "#FFFFFF";
+}
+ 
+function cw_df_label_color(){
+	document.getElementById("cwlsm_settings[label_color]").value = "#000000";
+}
+ 
+ 
+ 
+ 
 
 var jscolor = {
 

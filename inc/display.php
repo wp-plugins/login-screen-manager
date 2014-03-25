@@ -13,7 +13,11 @@
 	
 	<style type="text/css">
 	/* Login Screen Manager : Css : Change Logo */
-	h1 a { background-image:url(<?php echo$cwlsm_options["logo_url"];  ?>) !important; }
+	.login h1 a { background-image:url(<?php echo $cwlsm_options["logo_url"];  ?>)!important; }
+	<?php list($cwwidth, $cwheight, $cwtype, $cwattr) = getimagesize($cwlsm_options["logo_url"]); ?>
+	.login h1 a{ height:<?php echo $cwheight; ?>px!important; width:<?php echo $cwwidth; ?>px!important;}
+	.login h1 a{ background-size:100% 100%!important;}
+	.login h1{margin:0px!important;}
 	</style>
 	
 	<?php endif;?>
