@@ -1,6 +1,6 @@
 === Login Screen Manager ===
 Contributors: nazmul.hossain.nihal
-Tags: login screen,login logo,wp-login.php,coding war,Nazmul Hossain Nihal,codingwar.com,logos,login screen manager
+Tags: login screen,login logo,wp-login.php,code,Nazmul Hossain Nihal,Nihalscode,admin,Nihal's,logos,login screen manager
 Requires at least: 3.5
 Tested up to: 3.8.1
 Stable tag: 2.1
