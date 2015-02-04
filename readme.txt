@@ -1,31 +1,32 @@
 === Login Screen Manager ===
 Contributors: nazmul.hossain.nihal
-Tags: login screen,login logo,wp-login.php,code,Nazmul Hossain Nihal,Nihalscode,admin,Nihal's,logos,login screen manager
+Tags: login screen,login logo,wp-login.php,code,Nazmul Hossain Nihal,admin,logos,login screen manager,SuperbCodes
 Requires at least: 3.5
-Tested up to: 3.8.1
-Stable tag: 2.1
+Tested up to: 4.1
+Stable tag: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYMPLJ69H9EM6
 
-Using this plugin you can make changes on login screen of your WordPress site.It can detect your logo image size automatically.
+Using Login Screen Manager in your Wordpress site you can easily customize your login screen.You can add your own logo to the login screen,change styles and colors of the different elements of the login screen.You can add your custom css code.It has colorpicker so you don't need to worry about the color codes.It also has shortcode feature.If you type %BLOG_URL% or %BLOG_NAME% in setting inputs it will replace those with your site url and site title.
 
 == Description ==
 
-Using this plugin you can make changes on login screen of your WordPress site.Go to Settings >> Login Screen to make changes
+Using this plugin you can make changes on login screen of your WordPress site.It can detect your logo image size automatically.You can add logo to your login screen,change the color of the other elements of login page.It has a color picker so you don't need to worry about color codes.
 
 What you can do with this :
 
-*   Change Login Logo
-*   Add Favicon of login page
+*	Change Login Logo
+*	Add Favicon of login page
 *	Change Logo Hover Text
 *	Change Logo Url
-*   Change Background Color
-*   Change Login Form Background Color
-*   Change Label Color
-*   Change Input Text Color
-*   Change Input Background Color
-*   Add Custom CSS
-
+*	Change Background Color
+*	Change Login Form Background Color
+*	Change Label Color
+*	Change Input Text Color
+*	Change Input Background Color
+*	Add Custom CSS
+*	Use Shortcodes
 
 == Installation ==
 
@@ -53,6 +54,7 @@ Use Custom Css Option
 
 1. A Login Screen
 2. Option Page
+3. Favicon
 
 == Upgrade Notice ==
 
@@ -74,6 +76,9 @@ Update this plugin to get a new option - Change Input Background Color
 
 = 2.1 =
 * Automatic logo size detection added and Restore Defualt Option added
+
+= 3.0 =
+* Activation error gone and "shortcodes" feature added ! Update now!
 
 == Changelog ==
 
@@ -101,3 +106,7 @@ Update this plugin to get a new option - Change Input Background Color
 = 2.1 =
 * Automatic logo size detection added
 * Restore Defualt Option added
+
+= 3.0 =
+* Activation error fixed
+* Shortcodes feature added

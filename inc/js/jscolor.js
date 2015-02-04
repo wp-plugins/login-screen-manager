@@ -8,31 +8,6 @@
  * @updated 2012-07-06
  * @link    http://jscolor.com
  */
- 
- 
-function cw_df_body_bg_color(){
-	document.getElementById("cwlsm_settings[body_bg_color]").value = "#F1F1F1";
-}
- 
-function cw_df_login_form_bg_color(){
-	document.getElementById("cwlsm_settings[login_form_bg_color]").value = "#FFFFFF";
-}
- 
-function cw_df_text_input_color(){
-	document.getElementById("cwlsm_settings[text_input_color]").value = "#000000";
-}
- 
-function cw_df_input_bg_color(){
-	document.getElementById("cwlsm_settings[input_bg_color]").value = "#FFFFFF";
-}
- 
-function cw_df_label_color(){
-	document.getElementById("cwlsm_settings[label_color]").value = "#000000";
-}
- 
- 
- 
- 
 
 var jscolor = {
 
@@ -962,11 +937,11 @@ var jscolor = {
 
 		// require images
 		switch(modeID) {
-			case 0: jscolor.requireImage('hs.png'); break;
+			case 0: jscolor.requireImage('../images/hs.png'); break;
 			case 1: jscolor.requireImage('hv.png'); break;
 		}
-		jscolor.requireImage('cross.gif');
-		jscolor.requireImage('arrow.gif');
+		jscolor.requireImage('../images/cross.gif');
+		jscolor.requireImage('../images/arrow.gif');
 
 		this.importColor();
 	}
