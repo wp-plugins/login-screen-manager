@@ -17,7 +17,7 @@
 	ob_start(); ?>
 	<!-- Login Screen Manager Start -->
 	
-	<!-- Login Screen Manage : Version 3.0 -->
+	<!-- Login Screen Manage : Version 3.0.1 -->
 	
 	<?php if(!empty($cwlsm_options["logo_url"])): ?>
 	

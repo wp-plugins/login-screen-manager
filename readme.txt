@@ -3,7 +3,7 @@ Contributors: nazmul.hossain.nihal
 Tags: login screen,login logo,wp-login.php,code,Nazmul Hossain Nihal,admin,logos,login screen manager,SuperbCodes
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 3.0
+Stable tag: 3.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYMPLJ69H9EM6
@@ -61,12 +61,9 @@ Use Custom Css Option
 = 1.0.1 =
 Update this plugin to get a new option - Change Input Background Color
 
-
 = 1.0.2 =
 * Support for WordPress 3.4
 * Logo title and link option removed
-
-
 
 = 1.0.3 =
 * Bug removed
@@ -74,11 +71,14 @@ Update this plugin to get a new option - Change Input Background Color
 = 1.1 =
 * Color Picker Added!Get it now
 
-= 2.1 =
+= 2.0 =
 * Automatic logo size detection added and Restore Defualt Option added
 
 = 3.0 =
 * Activation error gone and "shortcodes" feature added ! Update now!
+
+= 3.0.1 =
+* Restore Defualt button error fixed.
 
 == Changelog ==
 
@@ -110,3 +110,6 @@ Update this plugin to get a new option - Change Input Background Color
 = 3.0 =
 * Activation error fixed
 * Shortcodes feature added
+
+= 3.0.1 =
+* Restore Defualt button error fixed.
