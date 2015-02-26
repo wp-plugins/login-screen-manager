@@ -71,9 +71,7 @@ function cwlsm_register_settings() {
 	register_setting('cwlsm_settings_group', 'cwlsm_settings');
 }
 add_action('admin_init', 'cwlsm_register_settings');
-
-?>
-<?php
+
 
 	function cwlsm_scripts_method() {
 		if(is_admin()){

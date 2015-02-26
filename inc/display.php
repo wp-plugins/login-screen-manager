@@ -17,7 +17,7 @@
 	ob_start(); ?>
 	<!-- Login Screen Manager Start -->
 	
-	<!-- Login Screen Manage : Version 3.0.1 -->
+	<!-- Login Screen Manage : Version 3.0.3 -->
 	
 	<?php if(!empty($cwlsm_options["logo_url"])): ?>
 	
@@ -119,4 +119,4 @@
 	if(!empty($cwlsm_options["url"])){
 		add_action('login_headerurl', 'cwlsm_change_url');
 	}
-	?>
+?>
