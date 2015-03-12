@@ -8,7 +8,7 @@ Requires at least: 3.5
 
 Tested up to: 4.1.1
 
-Stable tag: 3.0.3
+Stable tag: 3.4
 
 License: GPLv2 or later
 
@@ -168,6 +168,10 @@ Update this plugin to get a new option - Change Input Background Color
 
 *  Bug Fixed
 
+= 3.4 =
+
+*  Bug Fixed
+
 == Changelog ==
 
 
@@ -239,5 +243,9 @@ Update this plugin to get a new option - Change Input Background Color
 *  Bug Fixed
 
 = 3.0.3 =
+
+*  Bug Fixed
+
+= 3.4 =
 
 *  Bug Fixed

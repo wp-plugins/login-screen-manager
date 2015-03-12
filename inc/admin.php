@@ -74,7 +74,7 @@ add_action('admin_init', 'cwlsm_register_settings');
 
 
 	function cwlsm_scripts_method() {
-		if(is_admin()){
+		if(is_admin() and isset($_GET['page']) and $_GET['page'] == 'cwlsm-options'){
 			wp_enqueue_script('custom_admin_script',  plugins_url('/js/jscolor.js', __FILE__), array('jquery'));
 			wp_enqueue_script('restore_deafult',  plugins_url('/js/restore_deafult.js', __FILE__), array('scriptaculous'));
 		}
